@@ -1,0 +1,33 @@
+.person {
+  padding: 5px;
+
+  border: 1px solid lightblue;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.person_name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.description_title {
+  font-size: 20px;
+  font-weight: 500;
+}

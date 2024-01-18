@@ -1,0 +1,25 @@
+.next_page {
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.loading {
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+
+  max-width: max-content;
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
+
+  font-weight: 500;
+  color: lightskyblue;
+}
+
+.button:hover {
+  background-color: lightskyblue;
+  color: white;
+}

@@ -1,0 +1,25 @@
+.people {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.loading,
+.error,
+.empty {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .people {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .people {
+    grid-template-columns: 1fr;
+  }
+}
