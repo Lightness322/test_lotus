@@ -39,6 +39,7 @@ class App extends React.Component {
           people: people.results,
           isLoading: false,
           nextPage: people.next,
+          error: null,
         })
 
         clearInterval(timerId)
@@ -65,6 +66,7 @@ class App extends React.Component {
         return {
           people: [...prevState.people, ...people.results],
           nextPage: people.next,
+          error: null,
         }
       })
     } catch (error) {
